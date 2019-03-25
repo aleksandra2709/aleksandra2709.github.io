@@ -1,0 +1,191 @@
+body{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	}
+#personal{
+	background-color: #9CC2DA;
+	width: 33%;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-around;
+	
+
+}
+img{
+	align-self: center;
+	border-radius: 67%;
+	border: 3px solid #799AAE;
+	margin-top: 8%;
+}
+.resize{
+	width: 45%;
+	height: auto;
+}
+h3{
+	background-color: #4C5154;
+	color: #9CC2DA;
+	line-height: 40px;
+	font-family: 'berlin sans fb', sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+}
+ul{
+	list-style: none;
+	padding: 0;
+}
+.info{
+	font-family: Verdana, sans-serif;
+	color: #464A4C;
+	margin: auto 10%;
+	margin-top: 0;
+	text-align: justify;
+}
+
+i{ 
+	font-size: 50px;
+	color: #464A4C;
+	padding: 20px 18px;
+	display: inline;
+}
+.icons{
+	display: inline;
+	text-align: center;
+}
+h1{
+	font-family: 'Eras Light ITC', sans-serif;
+	font-weight: 100;
+	font-size: 50px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 10%;
+	margin-bottom: 0;
+	
+}
+h2{
+	font-family: 'Eras Light ITC', sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 10px;
+}
+#title{
+	margin-left: 8%;
+}
+#backend{
+	border-bottom: 3px solid #9CC2DA;
+	padding-bottom: 3px;
+}
+#main{
+	background-color: white;
+	width: 75%;
+	display:flex;
+	flex-direction:column;
+	margin: 1% 5%;	
+}
+
+strong{
+	color: #9CC2DA;
+}
+
+hr { 
+	border-style: solid;
+	color: #9CC2DA;
+	width: 100%;
+	margin-top: 0;
+}
+
+.customicon{
+	color: #9CC2DA;
+	font-size: 40px;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	margin-left: 2%;
+	}
+	
+ul.circle{
+	list-style: none;
+	}
+	
+	ul.circle li::before {
+  content: "\25E6"; 
+  color: #9CC2DA;
+  font-size:30px;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.year{
+	white-space: nowrap;
+	font-family: 'Eras Light ITC', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	color: #3D4042;
+}
+
+ul.circle{
+	list-style: none;
+	}
+	
+	ul.bullet li::before {
+  content: "\2022"; 
+  color: #9CC2DA;
+  font-size:30px;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+h4{
+	display: inline;
+	line-height: 40px;
+	font-family: 'berlin sans fb', sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+	color: #3D4042;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.child{
+	margin-right: 10%;
+}
+.place{
+	font-family: 'Eras Light ITC', sans-serif;
+	font-size: 16px;
+	font-weight: 550;
+	color: #565C60;
+	text-transform: uppercase;
+	margin-bottom: 2%;
+}
+.position{
+	font-family: 'Eras Light ITC', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	color: #3D4042;
+	margin-bottom: 2%;
+}
+.description{
+	font-family: 'Eras Light ITC', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #3D4042;
+}
+.refname{
+	font-family: 'Eras Light ITC', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #565C60;
+	text-transform: uppercase;
+	margin-bottom: 3%;
+}
